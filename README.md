@@ -1,9 +1,9 @@
 # Tensorflow Study  
 #### need tensorflow, numpy library
 ---
->my test
+>my test  
 test  
-test
+
 ---
 1. a
 2. b
@@ -12,11 +12,15 @@ test
     1. t
   2. y
   3. z  
+
 ---
+
 - item
 * item
 + item  
+
 ---
+
 ```python
 print "Hello"
 ```
