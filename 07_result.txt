@@ -1,0 +1,59 @@
+Learning Rate = 0.001
+
+Epoch: 0001 cost= 2.045250847
+Epoch: 0002 cost= 1.654348681
+Epoch: 0003 cost= 1.394346981
+Epoch: 0004 cost= 1.217098793
+Epoch: 0005 cost= 1.091325288
+Epoch: 0006 cost= 0.998380612
+Epoch: 0007 cost= 0.927069322
+Epoch: 0008 cost= 0.870706293
+Epoch: 0009 cost= 0.824957448
+Epoch: 0010 cost= 0.787088289
+Epoch: 0011 cost= 0.755143115
+Epoch: 0012 cost= 0.727806241
+Epoch: 0013 cost= 0.704097532
+Epoch: 0014 cost= 0.683335425
+Epoch: 0015 cost= 0.664954440
+Epoch: 0016 cost= 0.648573789
+Epoch: 0017 cost= 0.633870901
+Epoch: 0018 cost= 0.620560574
+Epoch: 0019 cost= 0.608455833
+Epoch: 0020 cost= 0.597409415
+Epoch: 0021 cost= 0.587260300
+Epoch: 0022 cost= 0.577898718
+Epoch: 0023 cost= 0.569233919
+Epoch: 0024 cost= 0.561190224
+Epoch: 0025 cost= 0.553687865
+Optimization Finished!
+('Accuracy:', 0.87830001)
+
+Learning Rate = 0.1
+
+Epoch: 0001 cost= 0.521184075
+Epoch: 0002 cost= 0.352405591
+Epoch: 0003 cost= 0.324167974
+Epoch: 0004 cost= 0.309400710
+Epoch: 0005 cost= 0.299998711
+Epoch: 0006 cost= 0.292912638
+Epoch: 0007 cost= 0.287482808
+Epoch: 0008 cost= 0.283529234
+Epoch: 0009 cost= 0.280035457
+Epoch: 0010 cost= 0.276974007
+Epoch: 0011 cost= 0.274479425
+Epoch: 0012 cost= 0.272209596
+Epoch: 0013 cost= 0.270159149
+Epoch: 0014 cost= 0.268394623
+Epoch: 0015 cost= 0.266965829
+Epoch: 0016 cost= 0.265531726
+Epoch: 0017 cost= 0.264421970
+Epoch: 0018 cost= 0.262882803
+Epoch: 0019 cost= 0.261610970
+Epoch: 0020 cost= 0.260807282
+Epoch: 0021 cost= 0.259763052
+Epoch: 0022 cost= 0.258739220
+Epoch: 0023 cost= 0.257806938
+Epoch: 0024 cost= 0.257064968
+Epoch: 0025 cost= 0.256367911
+Optimization Finished!
+('Accuracy:', 0.92290002)
