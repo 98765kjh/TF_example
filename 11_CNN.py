@@ -79,7 +79,7 @@ py_x = model(X, w1, w2, w3, w4, w_out, p_keep_conv, p_keep_hidden)
 
 # using Softmax & optimization
 cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=py_x, labels=Y))
-optimizer = tf.train.RMSPropOptimizer(0.01, 0.9).minimize(cost)
+optimizer = tf.train.RMSPropOptimizer(0.001, 0.9).minimize(cost)
 predict_op = tf.argmax(py_x, 1)
 
 #accuracy = tf.reduce_mean(tf.cast(tf.equal(tf.argmax(py_x, 1), tf.argmax(Y, 1)), tf.float32))
@@ -95,7 +95,7 @@ saver = tf.train.Saver()
 
 with tf.Session() as sess:
 
-    tf.initialize_all_variables().run()
+    tf.global_variables_initializer().run()
 
     ckpt = tf.train.get_checkpoint_state(ckpt_dir)
     if ckpt and ckpt.model_checkpoint_path:
